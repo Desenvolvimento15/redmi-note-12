@@ -43,8 +43,22 @@ window.addEventListener('resize', function () {checkScrollBlocks(blocks, 0.5)}, 
 
 
 $('.galeria').slick({
-    slidesToShow: 1,
+arrows: false,
+dots: true,
+infinite: true,
+speed: 500,
+slidesToShow: 1,
+slidesToScroll: 1,
+adaptiveHeight: true,
+autoplay: true,
+autoplaySpeed: 2000,
+});
+
+
+$('J_words').slick({
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  });		
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+autoplay: true,
+autoplaySpeed: 2000,
+})
