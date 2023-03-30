@@ -1,4 +1,3 @@
-
 function checkScroll(element, fraction) {
     var rect = element.getBoundingClientRect();
     var y = rect.top,
@@ -41,8 +40,6 @@ var blocks = document.getElementsByClassName("section");
 
 window.addEventListener('scroll', function () {checkScrollBlocks(blocks, 0.5)}, false);
 window.addEventListener('resize', function () {checkScrollBlocks(blocks, 0.5)}, false);
-
-
 
 
 $('.galeria').slick({
