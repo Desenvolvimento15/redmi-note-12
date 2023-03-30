@@ -55,10 +55,3 @@ autoplaySpeed: 2000,
 });
 
 
-$('J_words').slick({
-    slidesToScroll: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: true,
-autoplay: true,
-autoplaySpeed: 2000,
-})
