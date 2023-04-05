@@ -43,7 +43,7 @@ window.addEventListener('resize', function () {checkScrollBlocks(blocks, 0.5)}, 
 
 
 
-$('.slick').slick({
+$('.galeria').slick({
     arrows: false,
     dots: true,
     infinite: true,
